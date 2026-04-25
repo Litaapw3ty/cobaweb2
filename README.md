@@ -13,11 +13,7 @@ Fitur utama:
 
 ---
 
-## 🖼️ Tampilan Aplikasi
-
-### 🔹 Halaman Home
-
-![Home]()
+## Preview
 
 ### 🔹 Halaman Login
 
