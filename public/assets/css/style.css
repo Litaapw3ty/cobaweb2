@@ -1,0 +1,65 @@
+.hero {
+  padding: 80px 0;
+}
+
+.product-card img {
+  height: 180px;
+  object-fit: contain;
+  padding: 10px;
+}
+
+.product-card {
+  border-radius: 12px;
+  transition: 0.2s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.category-card {
+  background: #f8f9fa;
+  text-align: center;
+}
+
+.product-card {
+  border-radius: 12px;
+  transition: .2s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  height: 180px;
+  object-fit: contain;
+  padding: 10px;
+}
+
+.popular-scroll {
+  overflow-x: auto;
+  padding-bottom: 10px;
+  scroll-behavior: smooth;
+}
+
+.popular-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+
+.popular-scroll::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}
+
+.popular-item {
+  flex: 0 0 250px; /* lebar card */
+}
+
+.icon-save {
+    transition: all .25s ease;
+}
+
+.icon-save.active {
+    transform: scale(1.25);
+}

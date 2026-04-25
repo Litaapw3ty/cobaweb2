@@ -1,0 +1,64 @@
+.footer {
+    width: 100%;
+    background: linear-gradient(90deg, #123278 25%, #3A79B9 88%);
+    color: white;
+    padding: 20px 0;
+    border-radius: 0px;
+    margin-top: 30px;
+    font-family: 'inter';
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    font-size: 13px;
+}
+
+.footer-center {
+    text-align: center;
+}
+
+.footer-center h3 {
+    font-weight: 700;
+    line-height: 30px;
+    font-size: 30px;
+    margin: 0;
+}
+
+.footer-center p {
+    margin-top: 11px;
+    font-size: 12px;
+    opacity: 0.9;
+}
+
+/*kanan*/
+.footer-right {
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.footer-right h4 {
+    margin: 0 0 5px 0;
+}
+
+.footer-right ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-right ul li {
+    margin-bottom: 3px;
+}

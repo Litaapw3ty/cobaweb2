@@ -1,0 +1,292 @@
+:root{
+    --border:#e5e7eb;
+    --muted:#6b7280;
+    --shadow:0 6px 16px rgba(0,0,0,.08);
+}
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family:system-ui, -apple-system, sans-serif;
+    background:#ffffff;
+    color:#111827;
+}
+
+.container{
+    max-width:1200px;
+    margin:0 auto;
+    padding:0 24px;
+}
+
+.lokasi-banner{
+    position:relative;
+    height:300px;
+    overflow:hidden;
+}
+
+.lokasi-banner img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.lokasi-overlay{
+    pointer-events: none;
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:120px;
+    background:linear-gradient(
+        to bottom,
+        rgba(255,255,255,0),
+        #ffffff
+    );
+}
+
+.lokasi-breadcumb{
+    font-size:14px;
+    color:var(--muted);
+    margin:14px 0 6px;
+}
+
+.lokasi-breadcumb a{
+    color:var(--muted);
+    text-decoration:none;
+}
+
+.lokasi-breadcumb a:hover{
+    text-decoration:underline;
+}
+
+.lokasi-page-tittle{
+    font-size:26px;
+    font-weight:700;
+    margin:0 0 18px;
+    line-height:1.3;
+}
+
+.produk-grid{
+    display:grid;
+    grid-template-columns:repeat(3, 280px);
+    gap:14px;
+    justify-content:flex-start;
+}
+
+.product-card{
+    position:relative !important;
+    background:#ffffff;
+    border:1px solid var(--border);
+    border-radius:10px;
+    padding:14px;
+    transition:0.25s ease;
+    overflow:hidden;
+
+}
+
+.product-card:hover{
+    box-shadow:var(--shadow);
+    transform:translateY(-2px);
+}
+
+.produk-img{
+    height:140px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:10px;
+    position:relative;
+    z-index:1;
+}
+
+.produk-img img{
+    max-width:100%;
+    max-height:100%;
+    object-fit:contain;
+}
+
+.product-card .save-btn{
+    position:absolute;
+    bottom: 10px;
+    right:12px;
+    width:32px;
+    height:32px;
+    background:#ffffff;
+    border:1px solid #e5e7eb;
+    border-radius:8px;
+    cursor:pointer;
+    z-index:200;
+    box-shadow:0 2px 6px rgba(0,0,0,.15);
+}
+
+.product-card .save-btn::before{
+    content:"";
+    position:absolute;
+    inset:7px;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:contain;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%236b7280' d='M6 19.5V4h12v15.5l-6-2.583z'/%3E%3C/svg%3E");
+}
+
+.save-btn.saved::before{
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23111827' d='M6 19.5V4h12v15.5l-6-2.583z'/%3E%3C/svg%3E");
+}
+
+.save-btn.pop{
+    animation:pop 0.3s ease;
+}
+
+@keyframes pop{
+    0%{ transform:scale(1); }
+    50%{ transform:scale(1.25); }
+    100%{ transform:scale(1); }
+}
+
+.product-card .save-btn[data-saved='1']::before{
+    background-image:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23111827' d='M6 19.5V4h12v15.5l-6-2.583z'/%3E%3C/svg%3E\");
+}
+
+.product-card .save-btn:hover{
+    background:#f3f4f6;
+    transform:scale(1.05);
+}
+
+.produk-body{
+    display:flex;
+    flex-direction:column;
+    gap:4px;
+}
+
+.produk-nama-card{
+    font-size:15px;
+    font-weight:700;
+    color:#111827;
+}
+
+.produk-lokasi{
+    font-size:13px;
+    color:var(--muted);
+}
+
+.produk-rating{
+    font-size:13px;
+    color:var(--muted);
+}
+
+.produk-rating span{
+    color:#9ca3af;
+}
+
+.produk-harga{
+    margin-top:6px;
+    font-size:17px;
+    font-weight:800;
+    color:#111827;
+}
+
+.produk-harga span{
+    font-size:13px;
+    font-weight:500;
+    color:var(--muted);
+}
+
+@media(max-width:1024px){
+    .produk-grid{
+        grid-template-columns:repeat(2, 280px);
+        gap:12px;
+    }
+}
+
+@media(max-width:640px){
+    .produk-grid{
+        grid-template-columns:1fr;
+        gap:12px;
+    }
+}
+
+.product-card{
+    position:relative;
+}
+
+.save-btn{
+    position:absolute;
+    top:12px;
+    right:12px;
+    width:36px;
+    height:36px;
+    background:#fff;
+    border:none;
+    border-radius:50%;
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    box-shadow:0 4px 12px rgba(0,0,0,.15);
+    z-index:10;
+}
+
+.save-btn svg{
+    width:20px;
+    height:20px;
+    fill:#9e9e9e;
+}
+
+.save-btn.saved svg{
+    fill:#000;
+}
+
+.save-btn:active{
+    transform:scale(.92);
+}
+
+/*simpan*/
+.btn-simpan{
+    position:absolute;
+    bottom: 10px;
+    right:12px;
+    width:34px;
+    height:34px;
+    background:#ffffff;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-decoration:none;
+    box-shadow:0 2px 8px rgba(0,0,0,.15);
+    transition:0.2s ease;
+    z-index:20;
+}
+
+.btn-simpan:hover{
+    transform:scale(1.08);
+    background:#f5f5f5;
+}
+
+.icon-bookmark{
+    width:20px;
+    height:20px;
+    fill:none;
+    stroke:#111827;
+    stroke-width:1.8;
+    transition:0.2s ease;
+}
+
+.btn-simpan:hover .icon-bookmark{
+    stroke:#000;
+}
+
+.btn-simpan.saved .icon-bookmark{
+    fill:#111827;
+    stroke:#111827;
+}
+
+.btn-simpan{
+    pointer-events: auto !important;
+    z-index: 999 !important;
+}
+
+    

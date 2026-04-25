@@ -1,0 +1,279 @@
+body {
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    max-width: 100%;
+}
+
+.section {
+    margin: 100px auto;
+    width: 100%;
+    height: 100vh;                 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;       
+    align-items: center;           
+    padding: 0 15%;
+    text-align: center;
+}
+
+/* judul */
+.section h1 {
+    font-size: 40px;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+/* paragraf */
+.section p {
+    font-size: 18px;
+    line-height: 1.7;
+    max-width: 900px;
+}
+
+/* about */
+.about-section {
+    background: white;
+}
+
+/* ABOUT US */
+
+.about-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+/* card */
+.about-glass {
+    backdrop-filter: blur(18px);
+    background: rgba(255,255,255,0.18);
+    border-radius: 22px;
+    border: 1px solid rgba(255,255,255,0.35);
+    padding: 50px 45px;
+    max-width: 900px;
+
+    box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+    animation: fadeUp 0.9s ease forwards;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+/* judul */
+.about-glass h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0 4px 14px rgba(0,0,0,0.3);
+    margin-bottom: 25px;
+}
+
+/* paragraf */
+.about-glass p {
+    font-size: 19px;
+    line-height: 1.7;
+    color: rgba(255,255,255,0.92);
+    font-weight: 300;
+}
+
+/* animasi */
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+@media (max-width: 768px) {
+    .about-glass {
+        padding: 35px 28px;
+    }
+    .about-glass h1 {
+        font-size: 34px;
+    }
+    .about-glass p {
+        font-size: 16px;
+    }
+}
+
+
+.why-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 20px;
+}
+.why-title span {
+    color: #0ea5e9; /* biru laut soft */
+}
+
+/* list */
+.why-list {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+
+}
+
+/* card item */
+.why-list li {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 35px;
+    display: flex;
+    box-shadow: 0 10px 5px rgba(94, 114, 162, 0.635);
+    align-items: flex-start;
+    transition: 0.25s ease;
+}
+
+.why-list li:hover {
+    transform: translateY(-4px);
+    box-shadow: 0px 10px 3px rgba(18, 79, 210, 0.274);
+}
+
+/* icon */
+.icon-box {
+    width: 58px;
+    height: 58px;
+    border-radius: 14px;
+    background: #149bda;         
+    display: flex;
+}
+
+.icon-box i {
+    font-size: 30px;
+    color: white;              
+}
+
+/* text */
+.text h3 {
+    margin: 5px;
+    font-size: 27px;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+.text p {
+    margin: 6px 0 0;
+    color: #64748b;
+    line-height: 1.6;
+}
+
+/*responsive */
+@media (max-width: 768px) {
+    .why-list li {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+/* slide*/
+.partner-slider {
+    width: 120% ;
+    overflow: hidden;
+    padding: 25px 0;
+    cursor: pointer;
+}
+
+.partner-track {
+    display: flex;
+    gap: 100px;
+    animation: scrollLoop 13s linear infinite;
+}
+
+.partner-track img {
+    width: 100px;
+    opacity: 0.5;
+    filter: grayscale(100%);
+    transition: 0.4s ease;
+}
+
+.partner-track img:hover {
+    opacity: 1;
+    filter: grayscale(0%);
+    transform: scale(1.08);
+}
+
+@keyframes scrollLoop {
+    from {
+        transform: translateX();
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.partner-slider:hover .partner-track {
+    animation-play-state: running;
+}
+
+.partner-text {
+    max-width: 100vh;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.7;
+    transition: 0.3s ease;
+}
+
+.team-section {
+    text-align: center;
+    padding: 80px 0;
+}
+
+/*judul */
+.team-section h1 {
+    font-size: 42px;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+.team-images {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.team-item {
+    text-align: center;
+}
+
+
+.team-item img {
+    width: 280px;
+    border-radius: 20px;
+    object-fit: cover;
+    transition: 0.4s ease;
+    filter: brightness(90%);
+}
+
+.team-item img:hover {
+    transform: scale(1.05);
+    filter: brightness(100%) contrast(105%);
+}
+
+.team-name {
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #444;
+    transition: 0.3s ease;
+}
+
+.team-item:hover .team-name {
+    color: #b4004e; /* warna highlight */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .team-item img {
+        width: 80%;
+    }
+}

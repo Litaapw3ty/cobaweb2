@@ -1,0 +1,1397 @@
+WARNING - 2025-12-15 07:57:55 --> [DEPRECATED] urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\user\kategori.php on line 12.
+ 1 APPPATH\Views\user\kategori.php(12): urlencode(null)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/kategori', [], true)
+ 5 APPPATH\Controllers\User\Kategori.php(35): view('user/kategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('camera')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+WARNING - 2025-12-15 07:58:03 --> [DEPRECATED] urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\user\kategori.php on line 12.
+ 1 APPPATH\Views\user\kategori.php(12): urlencode(null)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/kategori', [], true)
+ 5 APPPATH\Controllers\User\Kategori.php(35): view('user/kategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('modifier')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+WARNING - 2025-12-15 07:58:06 --> [DEPRECATED] urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\user\kategori.php on line 12.
+ 1 APPPATH\Views\user\kategori.php(12): urlencode(null)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/kategori', [], true)
+ 5 APPPATH\Controllers\User\Kategori.php(35): view('user/kategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('camera')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 08:17:55 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: /]
+in APPPATH\Views\user\layout\header.php on line 35.
+ 1 APPPATH\Views\user\layout\header.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', 'C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php', 35)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('user/layout/header', null, true)
+ 5 APPPATH\Views\user\home.php(1): CodeIgniter\View\View->include('user/layout/header')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\home.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/home', [], true)
+ 9 APPPATH\Controllers\User\Home.php(22): view('user/home', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Home))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 08:17:57 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: /]
+in APPPATH\Views\user\layout\header.php on line 35.
+ 1 APPPATH\Views\user\layout\header.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', 'C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php', 35)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('user/layout/header', null, true)
+ 5 APPPATH\Views\user\home.php(1): CodeIgniter\View\View->include('user/layout/header')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\home.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/home', [], true)
+ 9 APPPATH\Controllers\User\Home.php(22): view('user/home', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Home))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 08:18:11 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: /]
+in APPPATH\Views\user\layout\header.php on line 22.
+ 1 APPPATH\Views\user\layout\header.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', 'C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('user/layout/header', null, true)
+ 5 APPPATH\Views\user\home.php(1): CodeIgniter\View\View->include('user/layout/header')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\home.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/home', [], true)
+ 9 APPPATH\Controllers\User\Home.php(22): view('user/home', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Home))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 08:18:12 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: /]
+in APPPATH\Views\user\layout\header.php on line 22.
+ 1 APPPATH\Views\user\layout\header.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', 'C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('user/layout/header', null, true)
+ 5 APPPATH\Views\user\home.php(1): CodeIgniter\View\View->include('user/layout/header')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\home.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/home', [], true)
+ 9 APPPATH\Controllers\User\Home.php(22): view('user/home', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Home))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 08:19:26 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: /]
+in APPPATH\Views\user\layout\header.php on line 35.
+ 1 APPPATH\Views\user\layout\header.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', 'C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php', 35)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('user/layout/header', null, true)
+ 5 APPPATH\Views\user\home.php(1): CodeIgniter\View\View->include('user/layout/header')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\home.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/home', [], true)
+ 9 APPPATH\Controllers\User\Home.php(22): view('user/home', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Home))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 08:19:27 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: /]
+in APPPATH\Views\user\layout\header.php on line 35.
+ 1 APPPATH\Views\user\layout\header.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', 'C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php', 35)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('user/layout/header', null, true)
+ 5 APPPATH\Views\user\home.php(1): CodeIgniter\View\View->include('user/layout/header')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\home.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/home', [], true)
+ 9 APPPATH\Controllers\User\Home.php(22): view('user/home', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Home))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 08:25:14 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "user/produk.php"
+[Method: GET, Route: produk]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/produk.php')
+ 2 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/produk', [], true)
+ 3 APPPATH\Controllers\User\Produk.php(100): view('user/produk', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Produk->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Produk))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 08:26:35 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "user/produk.php"
+[Method: GET, Route: produk]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/produk.php')
+ 2 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/produk', [], true)
+ 3 APPPATH\Controllers\User\Produk.php(100): view('user/produk', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Produk->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Produk))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 08:26:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "user/produk.php"
+[Method: GET, Route: produk]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/produk.php')
+ 2 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/produk', [], true)
+ 3 APPPATH\Controllers\User\Produk.php(100): view('user/produk', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Produk->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Produk))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 08:26:42 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: kategori/accessory]
+in APPPATH\Views\user\layout\header.php on line 26.
+ 1 APPPATH\Views\user\layout\header.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', 'C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('user/layout/header', null, true)
+ 5 APPPATH\Views\user\kategori.php(1): CodeIgniter\View\View->include('user/layout/header')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\kategori.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/kategori', [], true)
+ 9 APPPATH\Controllers\User\Kategori.php(35): view('user/kategori', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('accessory')
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 08:26:45 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: kategori/lighting]
+in APPPATH\Views\user\layout\header.php on line 26.
+ 1 APPPATH\Views\user\layout\header.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', 'C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('user/layout/header', null, true)
+ 5 APPPATH\Views\user\kategori.php(1): CodeIgniter\View\View->include('user/layout/header')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\kategori.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/kategori', [], true)
+ 9 APPPATH\Controllers\User\Kategori.php(35): view('user/kategori', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('lighting')
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 08:26:56 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: kategori/camera]
+in APPPATH\Views\user\layout\header.php on line 26.
+ 1 APPPATH\Views\user\layout\header.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', 'C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('user/layout/header', null, true)
+ 5 APPPATH\Views\user\kategori.php(1): CodeIgniter\View\View->include('user/layout/header')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\kategori.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/kategori', [], true)
+ 9 APPPATH\Controllers\User\Kategori.php(35): view('user/kategori', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('camera')
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 08:28:20 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: produk]
+in APPPATH\Views\user\layout\header.php on line 26.
+ 1 APPPATH\Views\user\layout\header.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', 'C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('user/layout/header', null, true)
+ 5 APPPATH\Views\user\produk.php(1): CodeIgniter\View\View->include('user/layout/header')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\produk.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/produk', [], true)
+ 9 APPPATH\Controllers\User\Produk.php(100): view('user/produk', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Produk->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Produk))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 08:31:08 --> ErrorException: Undefined variable $produk
+[Method: GET, Route: produk]
+in APPPATH\Controllers\User\Produk.php on line 101.
+ 1 APPPATH\Controllers\User\Produk.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produk', 'C:\\xampp\\htdocs\\cobaweb\\app\\Controllers\\User\\Produk.php', 101)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Produk->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 08:31:09 --> ErrorException: Undefined variable $produk
+[Method: GET, Route: produk]
+in APPPATH\Controllers\User\Produk.php on line 101.
+ 1 APPPATH\Controllers\User\Produk.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produk', 'C:\\xampp\\htdocs\\cobaweb\\app\\Controllers\\User\\Produk.php', 101)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Produk->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 08:31:27 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: produk]
+in APPPATH\Views\user\layout\header.php on line 26.
+ 1 APPPATH\Views\user\layout\header.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', 'C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('user/layout/header', null, true)
+ 5 APPPATH\Views\user\produk.php(1): CodeIgniter\View\View->include('user/layout/header')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\produk.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/produk', [], true)
+ 9 APPPATH\Controllers\User\Produk.php(100): view('user/produk', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Produk->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Produk))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 08:31:28 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: produk]
+in APPPATH\Views\user\layout\header.php on line 26.
+ 1 APPPATH\Views\user\layout\header.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', 'C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('user/layout/header', null, true)
+ 5 APPPATH\Views\user\produk.php(1): CodeIgniter\View\View->include('user/layout/header')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\produk.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/produk', [], true)
+ 9 APPPATH\Controllers\User\Produk.php(100): view('user/produk', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Produk->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Produk))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 08:31:50 --> ErrorException: Undefined variable $produk
+[Method: GET, Route: produk]
+in APPPATH\Controllers\User\Produk.php on line 101.
+ 1 APPPATH\Controllers\User\Produk.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produk', 'C:\\xampp\\htdocs\\cobaweb\\app\\Controllers\\User\\Produk.php', 101)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Produk->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 08:33:01 --> ErrorException: Undefined property: App\Controllers\User\Home::$produk
+[Method: GET, Route: /]
+in APPPATH\Controllers\User\Home.php on line 22.
+ 1 APPPATH\Controllers\User\Home.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\User\\Home::$produk', 'C:\\xampp\\htdocs\\cobaweb\\app\\Controllers\\User\\Home.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 08:33:50 --> ErrorException: Undefined property: App\Controllers\User\Home::$produk
+[Method: GET, Route: /]
+in APPPATH\Controllers\User\Home.php on line 22.
+ 1 APPPATH\Controllers\User\Home.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\User\\Home::$produk', 'C:\\xampp\\htdocs\\cobaweb\\app\\Controllers\\User\\Home.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 08:34:25 --> ErrorException: Undefined property: App\Controllers\User\Home::$produk
+[Method: GET, Route: /]
+in APPPATH\Controllers\User\Home.php on line 22.
+ 1 APPPATH\Controllers\User\Home.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\User\\Home::$produk', 'C:\\xampp\\htdocs\\cobaweb\\app\\Controllers\\User\\Home.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 08:40:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/layout/app.php"
+[Method: GET, Route: admin/lokasi]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/layout/app.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('admin/layout/app', [], true)
+ 3 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/lokasi/index', [], true)
+ 4 APPPATH\Controllers\Admin\Lokasi.php(19): view('admin/lokasi/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Lokasi->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Lokasi))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 08:41:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "user/produk_detail.php"
+[Method: GET, Route: produk/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/produk_detail.php')
+ 2 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/produk_detail', [], true)
+ 3 APPPATH\Controllers\User\Produk.php(39): view('user/produk_detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Produk->detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Produk))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 08:41:15 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: kategori/Lighting]
+in APPPATH\Views\user\layout\header.php on line 26.
+ 1 APPPATH\Views\user\layout\header.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', 'C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('user/layout/header', null, true)
+ 5 APPPATH\Views\user\kategori.php(1): CodeIgniter\View\View->include('user/layout/header')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\kategori.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/kategori', [], true)
+ 9 APPPATH\Controllers\User\Kategori.php(35): view('user/kategori', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('Lighting')
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 09:29:24 --> Error: Class "App\Models\SubKategoriModel" not found
+[Method: GET, Route: admin/produk/create]
+in APPPATH\Controllers\Admin\Produk.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Produk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 09:29:24 --> Error: Class "App\Models\SubKategoriModel" not found
+[Method: GET, Route: admin/produk/create]
+in APPPATH\Controllers\Admin\Produk.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Produk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+DEBUG - 2025-12-15 09:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-15 09:46:45 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: kategori/lighting]
+in APPPATH\Views\user\layout\header.php on line 26.
+ 1 APPPATH\Views\user\layout\header.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', 'C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('user/layout/header', null, true)
+ 5 APPPATH\Views\user\kategori.php(1): CodeIgniter\View\View->include('user/layout/header')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\kategori.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/kategori', [], true)
+ 9 APPPATH\Controllers\User\Kategori.php(35): view('user/kategori', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('lighting')
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 09:49:06 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: kategori/lighting]
+in APPPATH\Views\user\layout\header.php on line 26.
+ 1 APPPATH\Views\user\layout\header.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', 'C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('user/layout/header', null, true)
+ 5 APPPATH\Views\user\kategori.php(1): CodeIgniter\View\View->include('user/layout/header')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\kategori.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/kategori', [], true)
+ 9 APPPATH\Controllers\User\Kategori.php(35): view('user/kategori', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('lighting')
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 09:49:07 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: kategori/lighting]
+in APPPATH\Views\user\layout\header.php on line 26.
+ 1 APPPATH\Views\user\layout\header.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', 'C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('user/layout/header', null, true)
+ 5 APPPATH\Views\user\kategori.php(1): CodeIgniter\View\View->include('user/layout/header')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\kategori.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/kategori', [], true)
+ 9 APPPATH\Controllers\User\Kategori.php(35): view('user/kategori', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('lighting')
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 09:49:37 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: kategori/lighting]
+in APPPATH\Views\user\layout\header.php on line 26.
+ 1 APPPATH\Views\user\layout\header.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', 'C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('user/layout/header', null, true)
+ 5 APPPATH\Views\user\kategori.php(1): CodeIgniter\View\View->include('user/layout/header')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\kategori.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/kategori', [], true)
+ 9 APPPATH\Controllers\User\Kategori.php(35): view('user/kategori', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('lighting')
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 09:49:38 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: kategori/lighting]
+in APPPATH\Views\user\layout\header.php on line 26.
+ 1 APPPATH\Views\user\layout\header.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', 'C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('user/layout/header', null, true)
+ 5 APPPATH\Views\user\kategori.php(1): CodeIgniter\View\View->include('user/layout/header')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\kategori.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/kategori', [], true)
+ 9 APPPATH\Controllers\User\Kategori.php(35): view('user/kategori', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('lighting')
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 09:49:38 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: kategori/lighting]
+in APPPATH\Views\user\layout\header.php on line 26.
+ 1 APPPATH\Views\user\layout\header.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', 'C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('user/layout/header', null, true)
+ 5 APPPATH\Views\user\kategori.php(1): CodeIgniter\View\View->include('user/layout/header')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\kategori.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/kategori', [], true)
+ 9 APPPATH\Controllers\User\Kategori.php(35): view('user/kategori', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('lighting')
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 09:49:38 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: kategori/lighting]
+in APPPATH\Views\user\layout\header.php on line 26.
+ 1 APPPATH\Views\user\layout\header.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', 'C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('user/layout/header', null, true)
+ 5 APPPATH\Views\user\kategori.php(1): CodeIgniter\View\View->include('user/layout/header')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\kategori.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/kategori', [], true)
+ 9 APPPATH\Controllers\User\Kategori.php(35): view('user/kategori', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('lighting')
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 09:51:25 --> ErrorException: Undefined variable $tipeDipilih
+[Method: GET, Route: kategori/lighting]
+in APPPATH\Controllers\User\Kategori.php on line 39.
+ 1 APPPATH\Controllers\User\Kategori.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipeDipilih', 'C:\\xampp\\htdocs\\cobaweb\\app\\Controllers\\User\\Kategori.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('lighting')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 09:52:25 --> ErrorException: Undefined variable $tipe
+[Method: GET, Route: kategori/lighting]
+in APPPATH\Views\user\kategori.php on line 11.
+ 1 APPPATH\Views\user\kategori.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipe', 'C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\kategori.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/kategori', [], true)
+ 5 APPPATH\Controllers\User\Kategori.php(46): view('user/kategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('lighting')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 09:52:26 --> ErrorException: Undefined variable $tipe
+[Method: GET, Route: kategori/lighting]
+in APPPATH\Views\user\kategori.php on line 11.
+ 1 APPPATH\Views\user\kategori.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipe', 'C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\kategori.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/kategori', [], true)
+ 5 APPPATH\Controllers\User\Kategori.php(46): view('user/kategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('lighting')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 09:52:27 --> ErrorException: Undefined variable $tipe
+[Method: GET, Route: kategori/lighting]
+in APPPATH\Views\user\kategori.php on line 11.
+ 1 APPPATH\Views\user\kategori.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipe', 'C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\kategori.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/kategori', [], true)
+ 5 APPPATH\Controllers\User\Kategori.php(46): view('user/kategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('lighting')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 09:53:39 --> ErrorException: Undefined variable $tipe
+[Method: GET, Route: kategori/lighting]
+in APPPATH\Views\user\kategori.php on line 11.
+ 1 APPPATH\Views\user\kategori.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipe', 'C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\kategori.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/kategori', [], true)
+ 5 APPPATH\Controllers\User\Kategori.php(44): view('user/kategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('lighting')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 09:53:40 --> ErrorException: Undefined variable $tipe
+[Method: GET, Route: kategori/lighting]
+in APPPATH\Views\user\kategori.php on line 11.
+ 1 APPPATH\Views\user\kategori.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipe', 'C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\kategori.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/kategori', [], true)
+ 5 APPPATH\Controllers\User\Kategori.php(44): view('user/kategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('lighting')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 09:53:40 --> ErrorException: Undefined variable $tipe
+[Method: GET, Route: kategori/lighting]
+in APPPATH\Views\user\kategori.php on line 11.
+ 1 APPPATH\Views\user\kategori.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipe', 'C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\kategori.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/kategori', [], true)
+ 5 APPPATH\Controllers\User\Kategori.php(44): view('user/kategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('lighting')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 09:53:41 --> ErrorException: Undefined variable $tipe
+[Method: GET, Route: kategori/lighting]
+in APPPATH\Views\user\kategori.php on line 11.
+ 1 APPPATH\Views\user\kategori.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipe', 'C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\kategori.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/kategori', [], true)
+ 5 APPPATH\Controllers\User\Kategori.php(44): view('user/kategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('lighting')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 09:53:41 --> ErrorException: Undefined variable $tipe
+[Method: GET, Route: kategori/lighting]
+in APPPATH\Views\user\kategori.php on line 11.
+ 1 APPPATH\Views\user\kategori.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipe', 'C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\kategori.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/kategori', [], true)
+ 5 APPPATH\Controllers\User\Kategori.php(44): view('user/kategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('lighting')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+ERROR - 2025-12-15 09:58:45 --> mysqli_sql_exception: Unknown column 'slug' in 'where clause' in C:\xampp\htdocs\cobaweb\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\cobaweb\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\cobaweb\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\cobaweb\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\cobaweb\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\cobaweb\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cobaweb\system\BaseModel.php(715): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\cobaweb\app\Controllers\User\Kategori.php(21): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\cobaweb\system\CodeIgniter.php(933): App\Controllers\User\Kategori->index('lighting')
+#8 C:\xampp\htdocs\cobaweb\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+#9 C:\xampp\htdocs\cobaweb\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cobaweb\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\cobaweb\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\cobaweb\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\cobaweb\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-12-15 09:58:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'slug' in 'where clause'
+[Method: GET, Route: kategori/lighting]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kategori`
+WHERE `slug` = :slug:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\User\Kategori.php(21): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('lighting')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 09:58:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'slug' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kategori`
+WHERE `slug` = \'lighting\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kategori`
+WHERE `slug` = \'lighting\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kategori`
+WHERE `slug` = :slug:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\User\Kategori.php(21): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('lighting')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 09:58:45 --> [Caused by] mysqli_sql_exception: Unknown column 'slug' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `kategori`
+WHERE `slug` = \'lighting\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kategori`
+WHERE `slug` = \'lighting\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kategori`
+WHERE `slug` = \'lighting\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kategori`
+WHERE `slug` = :slug:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\User\Kategori.php(21): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('lighting')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+ERROR - 2025-12-15 09:58:46 --> mysqli_sql_exception: Unknown column 'slug' in 'where clause' in C:\xampp\htdocs\cobaweb\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\cobaweb\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\cobaweb\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\cobaweb\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\cobaweb\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\cobaweb\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cobaweb\system\BaseModel.php(715): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\cobaweb\app\Controllers\User\Kategori.php(21): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\cobaweb\system\CodeIgniter.php(933): App\Controllers\User\Kategori->index('lighting')
+#8 C:\xampp\htdocs\cobaweb\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+#9 C:\xampp\htdocs\cobaweb\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cobaweb\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\cobaweb\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\cobaweb\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\cobaweb\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-12-15 09:58:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'slug' in 'where clause'
+[Method: GET, Route: kategori/lighting]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kategori`
+WHERE `slug` = :slug:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\User\Kategori.php(21): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('lighting')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 09:58:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'slug' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kategori`
+WHERE `slug` = \'lighting\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kategori`
+WHERE `slug` = \'lighting\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kategori`
+WHERE `slug` = :slug:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\User\Kategori.php(21): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('lighting')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 09:58:46 --> [Caused by] mysqli_sql_exception: Unknown column 'slug' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `kategori`
+WHERE `slug` = \'lighting\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kategori`
+WHERE `slug` = \'lighting\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kategori`
+WHERE `slug` = \'lighting\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kategori`
+WHERE `slug` = :slug:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\User\Kategori.php(21): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('lighting')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+ERROR - 2025-12-15 09:59:02 --> mysqli_sql_exception: Unknown column 'slug' in 'where clause' in C:\xampp\htdocs\cobaweb\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\cobaweb\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\cobaweb\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\cobaweb\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\cobaweb\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\cobaweb\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cobaweb\system\BaseModel.php(715): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\cobaweb\app\Controllers\User\Kategori.php(21): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\cobaweb\system\CodeIgniter.php(933): App\Controllers\User\Kategori->index('lighting')
+#8 C:\xampp\htdocs\cobaweb\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+#9 C:\xampp\htdocs\cobaweb\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cobaweb\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\cobaweb\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\cobaweb\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\cobaweb\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-12-15 09:59:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'slug' in 'where clause'
+[Method: GET, Route: kategori/lighting]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kategori`
+WHERE `slug` = :slug:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\User\Kategori.php(21): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('lighting')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 09:59:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'slug' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kategori`
+WHERE `slug` = \'lighting\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kategori`
+WHERE `slug` = \'lighting\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kategori`
+WHERE `slug` = :slug:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\User\Kategori.php(21): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('lighting')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 09:59:02 --> [Caused by] mysqli_sql_exception: Unknown column 'slug' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `kategori`
+WHERE `slug` = \'lighting\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kategori`
+WHERE `slug` = \'lighting\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kategori`
+WHERE `slug` = \'lighting\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kategori`
+WHERE `slug` = :slug:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\User\Kategori.php(21): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('lighting')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+ERROR - 2025-12-15 09:59:03 --> mysqli_sql_exception: Unknown column 'slug' in 'where clause' in C:\xampp\htdocs\cobaweb\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\cobaweb\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\cobaweb\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\cobaweb\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\cobaweb\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\cobaweb\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cobaweb\system\BaseModel.php(715): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\cobaweb\app\Controllers\User\Kategori.php(21): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\cobaweb\system\CodeIgniter.php(933): App\Controllers\User\Kategori->index('lighting')
+#8 C:\xampp\htdocs\cobaweb\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+#9 C:\xampp\htdocs\cobaweb\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cobaweb\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\cobaweb\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\cobaweb\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\cobaweb\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-12-15 09:59:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'slug' in 'where clause'
+[Method: GET, Route: kategori/lighting]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kategori`
+WHERE `slug` = :slug:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\User\Kategori.php(21): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('lighting')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 09:59:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'slug' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kategori`
+WHERE `slug` = \'lighting\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kategori`
+WHERE `slug` = \'lighting\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kategori`
+WHERE `slug` = :slug:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\User\Kategori.php(21): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('lighting')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 09:59:03 --> [Caused by] mysqli_sql_exception: Unknown column 'slug' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `kategori`
+WHERE `slug` = \'lighting\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kategori`
+WHERE `slug` = \'lighting\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kategori`
+WHERE `slug` = \'lighting\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kategori`
+WHERE `slug` = :slug:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\User\Kategori.php(21): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('lighting')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 10:00:26 --> ErrorException: Undefined array key "slug"
+[Method: GET, Route: kategori/lighting]
+in APPPATH\Views\user\kategori.php on line 12.
+ 1 APPPATH\Views\user\kategori.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\kategori.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/kategori', [], true)
+ 5 APPPATH\Controllers\User\Kategori.php(52): view('user/kategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('lighting')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 10:00:27 --> ErrorException: Undefined array key "slug"
+[Method: GET, Route: kategori/lighting]
+in APPPATH\Views\user\kategori.php on line 12.
+ 1 APPPATH\Views\user\kategori.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\kategori.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/kategori', [], true)
+ 5 APPPATH\Controllers\User\Kategori.php(52): view('user/kategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('lighting')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 10:06:48 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+[Method: GET, Route: /]
+in SYSTEMPATH\HTTP\SiteURI.php on line 419.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(393): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(59): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\user\home.php(38): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\home.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/home', [], true)
+ 7 APPPATH\Controllers\User\Home.php(22): view('user/home', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 10:06:54 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+[Method: GET, Route: /]
+in SYSTEMPATH\HTTP\SiteURI.php on line 419.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(393): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(59): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\user\home.php(38): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\home.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/home', [], true)
+ 7 APPPATH\Controllers\User\Home.php(22): view('user/home', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 10:06:54 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+[Method: GET, Route: /]
+in SYSTEMPATH\HTTP\SiteURI.php on line 419.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(393): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(59): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\user\home.php(38): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\home.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/home', [], true)
+ 7 APPPATH\Controllers\User\Home.php(22): view('user/home', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 10:08:01 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+[Method: GET, Route: /]
+in SYSTEMPATH\HTTP\SiteURI.php on line 419.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(393): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(59): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\user\home.php(38): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\home.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/home', [], true)
+ 7 APPPATH\Controllers\User\Home.php(22): view('user/home', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 10:08:02 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+[Method: GET, Route: /]
+in SYSTEMPATH\HTTP\SiteURI.php on line 419.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(393): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(59): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\user\home.php(38): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\home.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/home', [], true)
+ 7 APPPATH\Controllers\User\Home.php(22): view('user/home', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 10:13:31 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+[Method: GET, Route: /]
+in SYSTEMPATH\HTTP\SiteURI.php on line 419.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(393): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(59): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\user\home.php(38): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\home.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/home', [], true)
+ 7 APPPATH\Controllers\User\Home.php(22): view('user/home', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 10:13:31 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+[Method: GET, Route: /]
+in SYSTEMPATH\HTTP\SiteURI.php on line 419.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(393): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(59): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\user\home.php(38): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\home.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/home', [], true)
+ 7 APPPATH\Controllers\User\Home.php(22): view('user/home', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 10:13:32 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+[Method: GET, Route: /]
+in SYSTEMPATH\HTTP\SiteURI.php on line 419.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(393): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(59): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\user\home.php(38): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\home.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/home', [], true)
+ 7 APPPATH\Controllers\User\Home.php(22): view('user/home', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 10:13:33 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+[Method: GET, Route: /]
+in SYSTEMPATH\HTTP\SiteURI.php on line 419.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(393): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(59): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\user\home.php(38): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\home.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/home', [], true)
+ 7 APPPATH\Controllers\User\Home.php(22): view('user/home', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 10:13:33 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+[Method: GET, Route: /]
+in SYSTEMPATH\HTTP\SiteURI.php on line 419.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(393): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(59): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\user\home.php(38): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\home.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/home', [], true)
+ 7 APPPATH\Controllers\User\Home.php(22): view('user/home', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 10:13:33 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+[Method: GET, Route: /]
+in SYSTEMPATH\HTTP\SiteURI.php on line 419.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(393): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(59): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\user\home.php(38): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\cobaweb\\app\\Views\\user\\home.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('user/home', [], true)
+ 7 APPPATH\Controllers\User\Home.php(22): view('user/home', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+ERROR - 2025-12-15 10:32:25 --> mysqli_sql_exception: Unknown column 'produk.slug' in 'where clause' in C:\xampp\htdocs\cobaweb\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\cobaweb\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `produk`...', 0)
+#1 C:\xampp\htdocs\cobaweb\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produk`...')
+#2 C:\xampp\htdocs\cobaweb\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produk`...')
+#3 C:\xampp\htdocs\cobaweb\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `produk`...', Array, false)
+#4 C:\xampp\htdocs\cobaweb\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cobaweb\system\BaseModel.php(715): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\cobaweb\app\Controllers\User\Produk.php(114): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\cobaweb\system\CodeIgniter.php(933): App\Controllers\User\Produk->detailSeo('.well-known', 'appspecific', 'com.chrome.devt...')
+#8 C:\xampp\htdocs\cobaweb\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Produk))
+#9 C:\xampp\htdocs\cobaweb\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cobaweb\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\cobaweb\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\cobaweb\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\cobaweb\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-12-15 10:32:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'produk.slug' in 'where clause'
+[Method: GET, Route: .well-known/appspecific/com.chrome.devtools.json]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `produk`.*, `kategori`.`slug` as `kategori_slug`, `sub_kategori`.`slug` as `sub_slug`
+FROM `produk`
+JOIN `kategori` ON `kategori`.`id_kategori` = `produk`.`id_kategori`
+JOIN `sub_kategori` ON `sub_kategori`.`id_sub_kategori` = `produk`.`id_sub_kategori`
+WHERE `produk`.`slug` = :produk.slug:
+AND `produk`.`status` = :produk.status:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\User\Produk.php(114): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Produk->detailSeo('.well-known', 'appspecific', 'com.chrome.devtools.json')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 10:32:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'produk.slug' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produk`.*, `kategori`.`slug` as `kategori_slug`, `sub_kategori`.`slug` as `sub_slug`
+FROM `produk`
+JOIN `kategori` ON `kategori`.`id_kategori` = `produk`.`id_kategori`
+JOIN `sub_kategori` ON `sub_kategori`.`id_sub_kategori` = `produk`.`id_sub_kategori`
+WHERE `produk`.`slug` = \'com.chrome.devtools.json\'
+AND `produk`.`status` = \'aktif\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produk`.*, `kategori`.`slug` as `kategori_slug`, `sub_kategori`.`slug` as `sub_slug`
+FROM `produk`
+JOIN `kategori` ON `kategori`.`id_kategori` = `produk`.`id_kategori`
+JOIN `sub_kategori` ON `sub_kategori`.`id_sub_kategori` = `produk`.`id_sub_kategori`
+WHERE `produk`.`slug` = \'com.chrome.devtools.json\'
+AND `produk`.`status` = \'aktif\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `produk`.*, `kategori`.`slug` as `kategori_slug`, `sub_kategori`.`slug` as `sub_slug`
+FROM `produk`
+JOIN `kategori` ON `kategori`.`id_kategori` = `produk`.`id_kategori`
+JOIN `sub_kategori` ON `sub_kategori`.`id_sub_kategori` = `produk`.`id_sub_kategori`
+WHERE `produk`.`slug` = :produk.slug:
+AND `produk`.`status` = :produk.status:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\User\Produk.php(114): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Produk->detailSeo('.well-known', 'appspecific', 'com.chrome.devtools.json')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Produk))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 10:32:25 --> [Caused by] mysqli_sql_exception: Unknown column 'produk.slug' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `produk`.*, `kategori`.`slug` as `kategori_slug`, `sub_kategori`.`slug` as `sub_slug`
+FROM `produk`
+JOIN `kategori` ON `kategori`.`id_kategori` = `produk`.`id_kategori`
+JOIN `sub_kategori` ON `sub_kategori`.`id_sub_kategori` = `produk`.`id_sub_kategori`
+WHERE `produk`.`slug` = \'com.chrome.devtools.json\'
+AND `produk`.`status` = \'aktif\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produk`.*, `kategori`.`slug` as `kategori_slug`, `sub_kategori`.`slug` as `sub_slug`
+FROM `produk`
+JOIN `kategori` ON `kategori`.`id_kategori` = `produk`.`id_kategori`
+JOIN `sub_kategori` ON `sub_kategori`.`id_sub_kategori` = `produk`.`id_sub_kategori`
+WHERE `produk`.`slug` = \'com.chrome.devtools.json\'
+AND `produk`.`status` = \'aktif\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produk`.*, `kategori`.`slug` as `kategori_slug`, `sub_kategori`.`slug` as `sub_slug`
+FROM `produk`
+JOIN `kategori` ON `kategori`.`id_kategori` = `produk`.`id_kategori`
+JOIN `sub_kategori` ON `sub_kategori`.`id_sub_kategori` = `produk`.`id_sub_kategori`
+WHERE `produk`.`slug` = \'com.chrome.devtools.json\'
+AND `produk`.`status` = \'aktif\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `produk`.*, `kategori`.`slug` as `kategori_slug`, `sub_kategori`.`slug` as `sub_slug`
+FROM `produk`
+JOIN `kategori` ON `kategori`.`id_kategori` = `produk`.`id_kategori`
+JOIN `sub_kategori` ON `sub_kategori`.`id_sub_kategori` = `produk`.`id_sub_kategori`
+WHERE `produk`.`slug` = :produk.slug:
+AND `produk`.`status` = :produk.status:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\User\Produk.php(114): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Produk->detailSeo('.well-known', 'appspecific', 'com.chrome.devtools.json')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Produk))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+DEBUG - 2025-12-15 10:45:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-15 14:37:00 --> ErrorException: Undefined variable $subAktif
+[Method: GET, Route: kamera]
+in APPPATH\Controllers\User\Kategori.php on line 54.
+ 1 APPPATH\Controllers\User\Kategori.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subAktif', 'C:\\xampp\\htdocs\\cobaweb\\app\\Controllers\\User\\Kategori.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('kamera')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
+CRITICAL - 2025-12-15 14:38:15 --> ErrorException: Undefined variable $subAktif
+[Method: GET, Route: modifier]
+in APPPATH\Controllers\User\Kategori.php on line 54.
+ 1 APPPATH\Controllers\User\Kategori.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subAktif', 'C:\\xampp\\htdocs\\cobaweb\\app\\Controllers\\User\\Kategori.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User\Kategori->index('modifier')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Kategori))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\cobaweb\\public\\index.php')
